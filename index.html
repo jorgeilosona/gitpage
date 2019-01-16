@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">   
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/estilos.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="barra-lateral col-12 col-sm-auto">
+				<div class="logo">
+					<h2>Dashboard </h2>
+				</div>
+				<nav class="menu d-flex d-sm-block justify-content-center flex-wrap">
+					<a href="#"> <i class="icon-home"></i> <span>Inicio</span></a>
+					<a href="#"> <i class="icon-doc-text"></i> <span>Entradas</span></a>
+					<a href="#"> <i class="icon-users"></i> <span>Usuarios</span></a>
+					<a href="#"> <i class="icon-cog-alt"></i> <span>Configuración</span></a>
+					<a href="#"> <i class="icon-logout"></i> <span>Salir</span></a>
+				</nav>
+			</div>
+			<main class="main col">
+				<div class="row">
+					<div class="columna col-lg-7"></div>
+					<div class="widget nueva_entrada">
+						<h3 class="titulo">Agregar Texto</h3>
+						<div id="maincontainer">
+         <div id="userregistration">
+            <h1>User Registration Form</h1>
+            <table border="0">
+               <tr>
+                  <td><b>First Name<span style="color:red;">*</span> : </b></td>
+                  <td><input type="text" value="" name="fname" id="fname" /></td>
+                  <td id="tdfname" style="display:none;"><span style="color:red;">Enter First Name</span></td>
+               </tr>
+               <tr>
+                  <td><b>Last Name<span style="color:red;">*</span> : </b></td>
+                  <td><input type="text" value="" name="lname" id="lname" /></td>
+                  <td id="tdlname" style="display:none;"><span style="color:red;">Enter Last Name</span></td>
+               </tr>
+               <tr>
+                  <td><b>Email Id<span style="color:red;">*</span> : </b></td>
+                  <td><input type="text" value="" name="emailid" id="emailid" /></td>
+                  <td id="tdemailid" style="display:none;"><span style="color:red;">Enter Email</span></td>
+               </tr>
+               <tr>
+                  <td><b>Mobile No<span style="color:red;">*</span> : </b></td>
+                  <td><input type="text" name="mphone" id="mphone"/></td>
+                  <td id="tdmphone" style="display:none;"><span style="color:red;">Enter Mobile Number</span></td>
+               </tr>   
+               <tr>
+                  <td></td>
+                  <td><button id="validatephone">validate phone</button></td>	 
+                  <td></td>
+               </tr>
+               <tr id="otpdiv" style="display:none;">
+                  <td><b>Enter OTP<span style="color:red;">*</span>:</b></td>
+                  <td><input type="text" value="" name="otp" id="otp" /></td>
+                  <td id="tdotp" style="display:none;"><span style="color:red;">Enter OTP</span></td>
+               </tr>
+               <tr>
+                  <td><b>Username<span style="color:red;">*</span>: </b></td>
+                  <td><input type="text" value="" name="uname" id="uname"/></td>
+                  <td id="tduname" style="display:none;"><span style="color:red;">Enter Username</span></td>
+               </tr>
+                  <tr><td><b>Password<span style="color:red;">*</span> :</b></td>
+                  <td><input type="password" value="" name="passwd" id="passwd"/></td>
+                  <td id="tdpasswd" style="display:none;"><span style="color:red;">Enter Password</span></td>
+               </tr>
+                  <tr><td><b>Confirm Password<span style="color:red;">*</span> :</b></td>
+                  <td><input type="password" value="" name="cpasswd" id="cpasswd"/></td>
+                  <td id="tdcpasswd" style="display:none;"><span style="color:red;">Enter Confirm Password</span></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td><button name="submit" id="submit" style="display:;" disabled="true">Submit</button></td>
+                  <td></td>
+               </tr>
+            </table>
+         </div>
+						  
+						<!-- <form action="">
+							<input type="text" placeholder="Titulo de la entrada">
+							<textarea placeholder="It is a long established fact that a reader will be distracted by the readable content 
+							of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+							 as opposed to using 'Content here, content here', making it look like readable English."></textarea>
+							<div class="d-flex justify-content-end">
+								<button><i class="icon icon-edit"></i>Enviar</button>
+							</div>
+						</form>
+					</div>
+
+					<div class="columna col-lg-5">
+						<div class="widget estadisticas">
+							<h3 class="titulo">Estadísticas</h3>
+							<div class="contenedor d-flex flex-wrap">
+								<div class="caja">
+									<h3>15,000</h3>
+									<p>visitas</p>
+								</div>
+								<div class="caja">
+										<h3>15,000</h3>
+										<p>visitas</p>
+									</div>
+								<div class="caja">
+									<h3>15,000</h3>
+									<p>visitas</p>
+								</div>
+								
+							</div>-->
+						</div>
+					</div>
+
+
+				</div>
+
+			</main>
+		</div>
+	</div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
